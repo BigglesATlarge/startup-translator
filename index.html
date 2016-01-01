@@ -10,6 +10,9 @@
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 
+	<!-- my local CSS -->
+	<link rel="stylesheet" type="text/css" href="css/myCSS.css">
+	
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -18,7 +21,21 @@
     <![endif]-->
   </head>
   <body>
-    <h1>Startup Translator</h1>
+  
+	<div class="container text-center">
+	
+		<h1><u>Startup Translator</u></h1>
+		
+		<form action="#">
+			<div class="row">
+				<input class="myForm input-lg" type="text" name="myQuery" placeholder="just one word in English please">
+			</div>
+			<div class="row">
+				<button type="submit" class="btn btn-primary myForm btn-lg">Let me loose!</button>
+			</div>
+		</form> 
+		
+	</div> <!-- end of main container -->
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
