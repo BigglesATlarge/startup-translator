@@ -1,0 +1,18 @@
+div  {
+	border-style: solid;
+    border-width: 1px;
+}  
+
+h1 {
+	margin-bottom: 20px;
+}
+
+.myForm {
+	margin-bottom: 20px;
+	margin-top: 20px;
+	width: 50%;
+}
+
+input{
+   text-align:center;
+}
